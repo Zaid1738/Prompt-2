@@ -1,0 +1,181 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main > .container{
+    width: 80vw;
+    height: 80vh;
+    border-radius: 30px;
+    display: flex;
+    border: 3px solid #78786a;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px;
+}
+.main > .container > .left{ 
+    width: 60vw;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    line-height: 25px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: 
+    #727271;
+}
+.main > .container > .left >  nav h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:  #481d0e;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+nav > ul > li a{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+}
+.main > .container > .left >.image{
+    display: flex;
+    justify-content: center;
+}
+.main > .container > .left >.image img{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    border: none;
+    background-color: #ddd;
+}
+.main > .container > .left >.detail{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 30%;
+    gap: 10px;
+}
+.main > .container > .left >.detail >.name{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif ;
+    color:#f3a740;
+}
+.main > .container > .left >.detail >p{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif ;
+    color:#898d90;
+}
+.main > .container > .left > .detail >.QYT{ 
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif ;
+    color:#342c24;
+}
+.main > .container > .left> .detail >.rate{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif ;
+    color:#743477;
+}
+.vertical-line{
+    border-left:2px solid #000000;
+    border-top-left-radius: -2px;
+}
+.main > .container > .right{  
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+.main > .container > .right >.right-nav{
+    width: 100%;
+    height: 8.8vh;
+    background-color: #727271;
+    padding:20px 20px ;
+}
+.main > .container > .right >.right-nav > h1> .ri-circle-fill{
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 70%;
+}
+.main > .container > .right >.right-nav > h1{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+.main > .container > .right> h1{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+.main > .container > .right> .credit {  
+    width: 300px;
+    height: 400px;
+    background-color:#44616b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5%;
+    outline: none;
+}
+.main > .container > .right> .credit > .box> h1{
+    font-size: 15px;
+    font-family:sans-serif ;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    font-size:15px;
+    background-color:rgb(230, 226, 219);
+    color: #000000;
+    outline:  none;
+}
+.main > .container > .right> .credit > .box > button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10%;
+    border: none;
+    background-color: #0b93a3;
+    color: white;
+    font-size: 16px;
+}
